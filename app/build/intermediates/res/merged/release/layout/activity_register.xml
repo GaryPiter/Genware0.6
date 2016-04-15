@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whites"
+    android:orientation="vertical" >
+
+    <include layout="@layout/custom_commen_title" />
+
+    <EditText
+        android:id="@+id/account_rg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_phone_bg"
+        android:hint="请填写昵称"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/tv_tips_name"
+        android:textColor="@color/gray_font"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password_rg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/register_phone_bg"
+        android:hint="请填写密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/sure_password_rg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/register_phone_bg"
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/tv_tips_password"
+        android:textColor="@color/gray_font"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_btn"
+        android:text="@string/register_complete"
+        android:textColor="@color/whites"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/layout/activity_register.xml -->

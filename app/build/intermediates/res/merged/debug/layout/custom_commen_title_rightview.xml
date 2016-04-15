@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- 添加好友 -->
+
+    <LinearLayout
+        android:id="@+id/pop_add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_bar_add_friends" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="添加好友"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 发起群聊 -->
+
+    <LinearLayout
+        android:id="@+id/pop_group_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_bar_add_groupchat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="发起群聊"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 扫一扫 -->
+
+    <LinearLayout
+        android:id="@+id/pop_richscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_bar_add_zxing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="扫一扫"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/layout/custom_commen_title_rightview.xml -->

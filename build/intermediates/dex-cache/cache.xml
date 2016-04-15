@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudio_Projects\Genware0.6\app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3526df34297bab9b9cc33d93d6e68f60fc2f94ea">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.2-SNAPSHOT-with-sources-acdc1db89f720782e4bbbe3106092e11bc51047a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudio_Projects\Genware0.6\app\libs\asmack-android-6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3d0153304081a3a9ddb15c93082e2664b94746e9">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\asmack-android-6-63951bb30742411b768807fbfa3012d68b6a1d4b.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudio_Projects\Genware0.6\app\libs\zxing.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\zxing-9d1ffa52691705c40b2fd5f41be95edffc125df0.jar" />
+    </item>
+    <item
+        jar="D:\android_sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-329fb9a56d9ef17587ce5a1e04b0a01d0c69d726.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudio_Projects\Genware0.6\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\nineoldandroids-2.4.0-f953c127a2169fd49cd4e4b973ddfe697407cccf.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudio_Projects\Genware0.6\app\libs\gesture-imageview.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="52c959808b11b777248513aa664cd8b2c5e13959">
+        <dex dex="E:\AndroidStudio_Projects\Genware0.6\app\build\intermediates\pre-dexed\release\gesture-imageview-1bd11425f256eb2d89fe5cf98a1994e6447c708c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FBFBFB" >
+
+    <include
+        android:id="@+id/ipm_title"
+        layout="@layout/custom_commen_title" />
+
+    <TextView
+        android:id="@+id/txt_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ipm_title"
+        android:clickable="true"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp"
+        android:background="#FBFBFB"
+        android:padding="10dip"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

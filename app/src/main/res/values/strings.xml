@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMChat</string>
+    <string name="action_settings">Settings</string>
+    <!-- public -->
+    <string name="run_bg_ticker">XMPP正在后台运行</string>
+    <string name="textOn">"    "</string>
+    <string name="textOff">"    "</string>
+    <string name="about">关于</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置。</string>
+    <string name="setting_about_description">弹指间 心无间</string>
+    <!-- Login -->
+    <string name="login">登 录</string>
+    <string name="account">帐号</string>
+    <string name="password">密码</string>
+    <string name="register">新用户</string>
+    <string name="login_prompt">登录中</string>
+    <string name="password_input_prompt">请输入</string>
+    <!-- 刷新 -->
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- 注册 -->
+    <string name="register_complete">注 册</string>
+    <string name="tv_tips_name">建议填写你的真实姓名,让你的朋友更容易人出你</string>
+    <string name="tv_tips_password">密码由6-16位字母，数字或下划线组成,不能是9位以下纯数字组成</string>
+    <string name="reg_error_empty_form_message">信息没有填写完整哦（是不是用户名、密码没有填写？）</string>
+    <string name="reg_error_psw_not_same">两次密码填写不一致</string>
+    <!-- Main -->
+    <string name="press_again_backrun">再按一次返回桌面</string>
+    <string name="conversation_net_error_label">请先连接上再试</string>
+    <string name="roster_group_rename_failed">默认分组不能重命名</string>
+    <string name="add_friend">添加好友</string>
+    <string name="rename">备注名</string>
+    <string name="move">移动到</string>
+    <string name="delete">删除</string>
+    <string name="open">打开</string>
+    <string name="status_available">在线</string>
+    <string name="status_away">离开</string>
+    <string name="status_chat">Q我吧</string>
+    <string name="status_dnd">请勿打扰</string>
+    <string name="status_xa">隐身</string>
+    <string name="status_offline">离线</string>
+    <string name="status_busy">忙碌</string>
+    <string name="status_online">在线</string>
+    <string name="deleteRosterItem_title">删除好友</string>
+    <string name="deleteRosterItem_text">确定删除%1$s(%2$s)?</string>
+    <string name="RenameGroup_summ">重命名分组%s为:</string>
+    <string name="RenameGroup_title">重命名分组</string>
+    <string name="RenameEntry_summ">重命名%1$s(%2$s)为:</string>
+    <string name="RenameEntry_title">重命名好友</string>
+    <string name="login_prompt_msg">连接中...</string>
+    <string name="login_prompt_no">未连接</string>
+    <string name="MoveRosterEntryToGroupDialog_title">改变分组</string>
+    <string name="default_group">我的好友</string>
+    <!-- 分组 -->
+    <string name="AddContact_SpinnerPrompt">选择分组</string>
+    <string name="NewGroup_EditTextField_Hint">新分组名称</string>
+    <string name="MoveRosterEntryToGroupDialog_summ">请选择一个分组</string>
+    <string name="addroster_item_addgroup_choice">增加新分组</string>
+    <!-- setting界面 -->
+    <string name="open_switch_account">切换帐号</string>
+    <string name="open_switch_account_msg">注销本帐号，并使用其他帐号登录?</string>
+    <string name="logout_exit_account">退出当前帐号</string>
+    <string name="exit_dialog_msg">退出后不会删除任何历史数据，下次登录依然可 以使用本帐号</string>
+    <!-- chat界面 -->
+    <string name="chat_send">发送</string>
+    <string name="deleteChatHistory_title">删除最近会话</string>
+    <string name="deleteChatHistory_text">确定清空与%1$s(%2$s)的聊天消息记录?</string>
+    <!-- About -->
+    <string name="about_author">作者:</string>
+    <string name="about_email">邮箱:</string>
+    <string name="app_version">V1.0.8</string>
+    <string name="all_rights_reserved">Copyright © 2016 genware. All Rights Reserved.</string>
+    <string name="app_information">&#160;&#160;&#160;&#160;&#160;\
+       	  本应用是基于openfire+asmack的XMPP即时通讯,实现基本的发送文本、表情、图片的聊天功能呢。
+       	  关于本应用的缺陷与不足，以及建议欢迎及时反馈！ </string>
+
+    <!-- 版本更新 -->
+    <string name="str_upgrade">版本升级</string>
+    <string name="str_downloading">正在下载</string>
+    <string name="str_upgrade_message">发现新版本{0}，是否更新？\n{1}</string>
+    <string name="str_get_updatainfo_error">获取服务器更新信息失败</string>
+    <string name="str_download_error">下载失败</string>
+    <string name="no_permission">无访问权限</string>
+    <!-- 不打算保留的 -->
+    <string name="login_help_information">Tips:帐号由ID+@+服务器组成!\n  
+        	例如：way.ping.li@gmail.com,\n或者：way@192.168.1.110</string>
+    <string name="coverview_tip">上滑可关闭此界面</string>
+    <string name="searchdialog_find_contact_new">搜索</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_update">UpdateActivity</string>
+
+</resources>

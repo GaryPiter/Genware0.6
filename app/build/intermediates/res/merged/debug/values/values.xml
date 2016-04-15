@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <attr format="reference" name="switchStyle"/>
+    <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_sheet_curr_point">#ff9fa1a4</color>
+    <color name="action_sheet_point">#ff5f6268</color>
+    <color name="black">@color/color_hei</color>
+    <color name="blue">#499BF7</color>
+    <color name="button_reply_normal">#ffffffff</color>
+    <color name="chat_background">@color/window_bg</color>
+    <color name="chat_bubble_btn_text">#ffa86700</color>
+    <color name="chat_time">@color/color_bai</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_divider">#ffdddddd</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="common_bg">#ffe6e6e6</color>
+    <color name="contact_category_text">#ff454a52</color>
+    <color name="contact_category_text_focused">#ff4686b3</color>
+    <color name="custom_theme_color">#66000000</color>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#ff298ecb</color>
+    <color name="default_circle_indicator_page_color">#ff777777</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="devide_line">#CBCED2</color>
+    <color name="gray">#ff777777</color>
+    <color name="gray_font">#818181</color>
+    <color name="halftransparent">#aa000000</color>
+    <color name="info_card_qzonepic_default">#ffdedede</color>
+    <color name="link_color">#ff13679d</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="qq_normal">@color/color_hei</color>
+    <color name="qzone_feeditem_nor">#fffafafa</color>
+    <color name="qzone_feeditem_sel">#fff1f1f1</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sc_black">#ff000000</color>
+    <color name="sc_gray">#ff777777</color>
+    <color name="sc_name">#ff5fc4ff</color>
+    <color name="sc_transparent">#00ffffff</color>
+    <color name="sc_transparent_background">@color/color_hei_8</color>
+    <color name="sc_transparent_black">#7f000000</color>
+    <color name="sc_white">@color/color_bai_8</color>
+    <color name="screenshot_normal">#3f000000</color>
+    <color name="screenshot_pressed">#bf000000</color>
+    <color name="setting_aio_text_size_normal">#ff151617</color>
+    <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+    <color name="sqqname">#ffee860a</color>
+    <color name="tag_textview1">#ff795028</color>
+    <color name="tag_textview2">#ff4a7928</color>
+    <color name="tag_textview3">#ff284479</color>
+    <color name="text_black">#ff333333</color>
+    <color name="text_black_disabled">#80333333</color>
+    <color name="text_gray">#ff777777</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_disabled">#80ffffff</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="transparent">@color/color_hei_8</color>
+    <color name="twenty_transparent_black">#33000000</color>
+    <color name="video_bg_color">#ffecf3f9</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="whites">#ffffff</color>
+    <color name="window_bg">#00eef1f3</color>
+    <declare-styleable name="CirclePageIndicator"><attr format="boolean" name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr format="dimension" name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="SlidingLayer"><attr format="boolean" name="shadow_drawable"/><attr format="dimension" name="shadow_width"/><attr format="boolean" name="close_on_tapEnabled"/><attr format="enum" name="stickTo"><enum name="right" value="-1"/><enum name="left" value="-2"/><enum name="middle" value="-3"/></attr></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode"><enum name="none" value="0"/><enum name="both" value="1"/><enum name="right" value="2"/><enum name="left" value="3"/></attr><attr format="enum" name="swipeActionLeft"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/></attr><attr format="enum" name="swipeActionRight"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/></attr></declare-styleable>
+    <declare-styleable name="Switch"><attr format="reference" name="thumb"/><attr format="reference" name="track"/><attr format="reference" name="textOn"/><attr format="reference" name="textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/></declare-styleable>
+    <declare-styleable name="SwitchTextAppearance"><attr name="android:textColor"/><attr name="android:textSize"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="android:textColorHighlight"/><attr name="android:textColorHint"/><attr name="android:textColorLink"/></declare-styleable>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="aio_bubble_padding_align_error">9.0dip</dimen>
+    <dimen name="aio_bubble_padding_align_head">13.0dip</dimen>
+    <dimen name="aio_bubble_padding_align_head2">15.0dip</dimen>
+    <dimen name="aio_bubble_padding_bottom">9.0dip</dimen>
+    <dimen name="aio_bubble_padding_top">9.0dip</dimen>
+    <dimen name="aio_content_padding">6.0dip</dimen>
+    <dimen name="aio_padding_left">10.0dip</dimen>
+    <dimen name="aio_padding_right">10.0dip</dimen>
+    <dimen name="aio_padding_top">11.0dip</dimen>
+    <dimen name="aio_share_padding">6.0dip</dimen>
+    <dimen name="aio_text_padding_align_error">8.0dip</dimen>
+    <dimen name="aio_text_padding_align_head">7.0dip</dimen>
+    <dimen name="aio_text_padding_bottom">6.0dip</dimen>
+    <dimen name="aio_text_padding_top">6.0dip</dimen>
+    <dimen name="aio_text_size_extra_large">22.0sp</dimen>
+    <dimen name="aio_text_size_large">20.0sp</dimen>
+    <dimen name="aio_text_size_middle">18.0sp</dimen>
+    <dimen name="aio_text_size_small">16.0sp</dimen>
+    <dimen name="aio_text_size_small_stable">16.0dip</dimen>
+    <dimen name="aio_timestamp_padding_bottom">10.0dip</dimen>
+    <dimen name="aio_timestamp_padding_top">14.0dip</dimen>
+    <dimen name="album_cover_width">62.0dip</dimen>
+    <dimen name="album_grid_space">2.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginBottom">3.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginTop">3.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginBottom">18.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginTop">20.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_paddingLR">12.5dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginBottom">5.0dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginTop">10.0dip</dimen>
+    <dimen name="common_menu_dialog_tilte_paddingLR">25.0dip</dimen>
+    <dimen name="contat_buddy_list_name_width">194.0dip</dimen>
+    <dimen name="dataline_msg_item_image_height">150.0dip</dimen>
+    <dimen name="dataline_msg_item_image_width">150.0dip</dimen>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="detail_p_activity_v">12.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinLeft">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinRight">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinTop">20.0dip</dimen>
+    <dimen name="dialogBase_btnHeight">46.0dip</dimen>
+    <dimen name="dialogBase_listWidth">254.0dip</dimen>
+    <dimen name="dialogBase_titleHeight">48.0dip</dimen>
+    <dimen name="dialogBase_titleIconMargin">12.0dip</dimen>
+    <dimen name="dialogBase_width">288.0dip</dimen>
+    <dimen name="fastscroll_overlay_size">104.0dip</dimen>
+    <dimen name="fastscroll_thumb_height">52.0dip</dimen>
+    <dimen name="fastscroll_thumb_width">64.0dip</dimen>
+    <dimen name="font17">17.0sp</dimen>
+    <dimen name="font_size_extra_small">12.0sp</dimen>
+    <dimen name="font_size_large">18.0sp</dimen>
+    <dimen name="font_size_middle">16.0sp</dimen>
+    <dimen name="font_size_small">14.0sp</dimen>
+    <dimen name="gallery_space">30.0dip</dimen>
+    <dimen name="gd_arrow_offset">5dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="info_card_info_marginBottom">12.5dip</dimen>
+    <dimen name="info_card_level_icon_size">16.5dip</dimen>
+    <dimen name="info_card_middle_item_txtsize">15.5sp</dimen>
+    <dimen name="info_card_moreinfo_item_paddingLR">10.0dip</dimen>
+    <dimen name="info_card_moreinfo_item_paddingTB">12.0dip</dimen>
+    <dimen name="layout_common_xlistview_paddingLR">10.0dip</dimen>
+    <dimen name="lite_activity_horizontal_margin">0.0dip</dimen>
+    <dimen name="lite_activity_vertical_margin">0.0dip</dimen>
+    <dimen name="nav_height">52.0dip</dimen>
+    <dimen name="nav_padding_top">60.0dip</dimen>
+    <dimen name="phone_country_code_padding">6.0dip</dimen>
+    <dimen name="phone_country_code_width">115.0dip</dimen>
+    <dimen name="photo_list_cell_edge_padding">4.0dip</dimen>
+    <dimen name="photo_list_cell_horizontal_spacing">4.0dip</dimen>
+    <dimen name="photo_list_cell_vertical_spacing">4.0dip</dimen>
+    <dimen name="photo_wall_host_avatar_size">64.0dip</dimen>
+    <dimen name="photo_wall_lr">7.0dip</dimen>
+    <dimen name="photo_wall_title_marginBottom">9.0dip</dimen>
+    <dimen name="photo_wall_top">12.0dip</dimen>
+    <dimen name="popup_win_height">42.0dip</dimen>
+    <dimen name="recent_list_foot_height">5.0dip</dimen>
+    <dimen name="recent_list_head_height">48.0dip</dimen>
+    <dimen name="recent_list_net_bar_height">40.0dip</dimen>
+    <dimen name="recent_no_chat_height">70.0dip</dimen>
+    <dimen name="refresh_header_height">60.0dip</dimen>
+    <dimen name="search_troop_filter_width">146.0dip</dimen>
+    <dimen name="setting_tips_marginBottom">6.0dip</dimen>
+    <dimen name="setting_tips_marginLeft">10.0dip</dimen>
+    <dimen name="setting_tips_marginRight">0.0dip</dimen>
+    <dimen name="setting_tips_marginTop">11.0dip</dimen>
+    <dimen name="textSize15sp">15.0sp</dimen>
+    <dimen name="textSize20sp">20.0sp</dimen>
+    <dimen name="textSizeS2">18.0sp</dimen>
+    <dimen name="textSizeS3">15.0sp</dimen>
+    <dimen name="textSizeS4">12.0sp</dimen>
+    <dimen name="tip_layout_padding">10.0dip</dimen>
+    <dimen name="title_bar_height">48.0dip</dimen>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <item name="preview_btn_bg_press" type="drawable">#ff000000</item>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="inputArea" type="id">false</item>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AddContact_SpinnerPrompt">选择分组</string>
+    <string name="MoveRosterEntryToGroupDialog_summ">请选择一个分组</string>
+    <string name="MoveRosterEntryToGroupDialog_title">改变分组</string>
+    <string name="NewGroup_EditTextField_Hint">新分组名称</string>
+    <string name="RenameEntry_summ">重命名%1$s(%2$s)为:</string>
+    <string name="RenameEntry_title">重命名好友</string>
+    <string name="RenameGroup_summ">重命名分组%s为:</string>
+    <string name="RenameGroup_title">重命名分组</string>
+    <string name="about">关于</string>
+    <string name="about_author">作者:</string>
+    <string name="about_email">邮箱:</string>
+    <string name="account">帐号</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_friend">添加好友</string>
+    <string name="addroster_item_addgroup_choice">增加新分组</string>
+    <string name="all_rights_reserved">Copyright © 2016 genware. All Rights Reserved.</string>
+    <string name="app_information">     \
+       	  本应用是基于openfire+asmack的XMPP即时通讯,实现基本的发送文本、表情、图片的聊天功能呢。
+       	  关于本应用的缺陷与不足，以及建议欢迎及时反馈！ </string>
+    <string name="app_name">IMChat</string>
+    <string name="app_version">V1.0.8</string>
+    <string name="cancel">取消</string>
+    <string name="chat_send">发送</string>
+    <string name="conversation_net_error_label">请先连接上再试</string>
+    <string name="coverview_tip">上滑可关闭此界面</string>
+    <string name="default_group">我的好友</string>
+    <string name="delete">删除</string>
+    <string name="deleteChatHistory_text">确定清空与%1$s(%2$s)的聊天消息记录?</string>
+    <string name="deleteChatHistory_title">删除最近会话</string>
+    <string name="deleteRosterItem_text">确定删除%1$s(%2$s)?</string>
+    <string name="deleteRosterItem_title">删除好友</string>
+    <string name="exit_dialog_msg">退出后不会删除任何历史数据，下次登录依然可 以使用本帐号</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">登 录</string>
+    <string name="login_help_information">Tips:帐号由ID+@+服务器组成!\n  
+        	例如：way.ping.li@gmail.com,\n或者：way@192.168.1.110</string>
+    <string name="login_prompt">登录中</string>
+    <string name="login_prompt_msg">连接中...</string>
+    <string name="login_prompt_no">未连接</string>
+    <string name="logout_exit_account">退出当前帐号</string>
+    <string name="move">移动到</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置。</string>
+    <string name="no_permission">无访问权限</string>
+    <string name="ok">确定</string>
+    <string name="open">打开</string>
+    <string name="open_switch_account">切换帐号</string>
+    <string name="open_switch_account_msg">注销本帐号，并使用其他帐号登录?</string>
+    <string name="password">密码</string>
+    <string name="password_input_prompt">请输入</string>
+    <string name="press_again_backrun">再按一次返回桌面</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="reg_error_empty_form_message">信息没有填写完整哦（是不是用户名、密码没有填写？）</string>
+    <string name="reg_error_psw_not_same">两次密码填写不一致</string>
+    <string name="register">新用户</string>
+    <string name="register_complete">注 册</string>
+    <string name="rename">备注名</string>
+    <string name="roster_group_rename_failed">默认分组不能重命名</string>
+    <string name="run_bg_ticker">XMPP正在后台运行</string>
+    <string name="searchdialog_find_contact_new">搜索</string>
+    <string name="setting_about_description">弹指间 心无间</string>
+    <string name="status_available">在线</string>
+    <string name="status_away">离开</string>
+    <string name="status_busy">忙碌</string>
+    <string name="status_chat">Q我吧</string>
+    <string name="status_dnd">请勿打扰</string>
+    <string name="status_offline">离线</string>
+    <string name="status_online">在线</string>
+    <string name="status_xa">隐身</string>
+    <string name="str_download_error">下载失败</string>
+    <string name="str_downloading">正在下载</string>
+    <string name="str_get_updatainfo_error">获取服务器更新信息失败</string>
+    <string name="str_upgrade">版本升级</string>
+    <string name="str_upgrade_message">发现新版本{0}，是否更新？\n{1}</string>
+    <string name="textOff">"    "</string>
+    <string name="textOn">"    "</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="tv_tips_name">建议填写你的真实姓名,让你的朋友更容易人出你</string>
+    <string name="tv_tips_password">密码由6-16位字母，数字或下划线组成,不能是9位以下纯数字组成</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/popup_styles.xml -->
+    <eat-comment/>
+    <style name="Animations"/>
+    <style name="Animations.PopDownMenu"/>
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopUpMenu"/>
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="B1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="B2_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="B3_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="B4_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray</item>
+    </style>
+    <style name="B4_Font_white">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray_item</item>
+    </style>
+    <style name="B5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="B6_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="B7_Font">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/skin_black</item>
+    </style>
+    <style name="Btn_WithBuleBg_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Btn_WithWhiteBg_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/sc_gray</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/textSizeS2</item>
+        <item name="android:textColor">@color/skin_color_button</item>
+        <item name="android:background">@drawable/common_btn_green</item>
+    </style>
+    <style name="ButtonRed" parent="@style/ButtonGreen">
+        <item name="android:background">@drawable/common_btn_red</item>
+    </style>
+    <style name="ButtonWhite" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/textSizeS2</item>
+        <item name="android:textColor">@color/skin_button</item>
+        <item name="android:background">@drawable/common_btn_white</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="C10_Font_white">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <style name="C3_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="C4_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="C4_Font_white">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/skin_gray3_item</item>
+    </style>
+    <style name="C5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="C6_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="C7_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="C8_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_blue</item>
+    </style>
+    <style name="C8_Font_white">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_blue_item</item>
+    </style>
+    <style name="C9_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="C9_Font_white">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@null</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="D1_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="D2_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="D3_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="D3_Font_white">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <style name="D4_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_gray3_item</item>
+    </style>
+    <style name="D5_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="D6_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <style name="D8_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Default" parent="@android:style/Theme">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">@dimen/title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:autoCompleteTextViewStyle">@style/customAutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/customCheckBox</item>
+        <item name="android:editTextStyle">@style/customEditText</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        <item name="android:radioButtonStyle">@style/customRadioButton</item>
+        <item name="android:windowAnimationStyle">@style/actAnimation</item>
+        <item name="switchStyle">@style/switch_optimus</item>
+    </style>
+    <style name="Default.AnimPullUp" parent="@style/Default">
+        <item name="android:windowAnimationStyle">@style/pullUpAnimation</item>
+    </style>
+    <style name="Default.NoTitleBar" parent="@style/Default">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Default.SwipeBack" parent="@style/Default">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Default.SwipeBack.NoTitleBar" parent="@style/Default.SwipeBack">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置无边框 -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置为浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置动画 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="E1_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray</item>
+    </style>
+    <style name="E2_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray</item>
+    </style>
+    <style name="G1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="IconArrowRight" parent="@android:style/Widget.TextView">
+        <item name="android:background">@drawable/common_arrow_right_selector</item>
+        <item name="android:height">15.0dip</item>
+        <item name="android:width">9.0dip</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="K1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff3b639f</item>
+    </style>
+    <style name="K2_Font_white">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_gray3_item</item>
+    </style>
+    <style name="MENU_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_menu</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MenuDialogAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="MenuDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="P3_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/sc_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/sc_popup_exit</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="Q4_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_blue</item>
+    </style>
+    <style name="R1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffb7b7b7</item>
+    </style>
+    <style name="S2_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="T4_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearanceSwitch" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="TextGrayS4_white" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/textSizeS4</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TextViewRefresh" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeS4</item>
+        <item name="android:textColor">@color/skin_bar_text</item>
+        <item name="android:drawableLeft">@drawable/aio_refresh_over</item>
+        <item name="android:drawablePadding">6.0dip</item>
+    </style>
+    <style name="TextViewTime" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeS4</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/aio_time_bg</item>
+        <item name="android:paddingLeft">14.0dip</item>
+        <item name="android:paddingRight">14.0dip</item>
+    </style>
+    <style name="TextViewTip" parent="@android:style/Widget.TextView">
+        <item name="android:background">@drawable/msg_tip_bg</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="TipsPopupWindowAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/tips_slip_in_top</item>
+        <item name="android:windowExitAnimation">@anim/tips_slip_out_top</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="accuse_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_blue</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="actAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_new</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_back</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_finish</item>
+        <item name="android:taskOpenEnterAnimation">@anim/activity_new</item>
+        <item name="android:taskOpenExitAnimation">@anim/activity_out</item>
+        <item name="android:taskCloseEnterAnimation">@anim/activity_back</item>
+        <item name="android:taskCloseExitAnimation">@anim/activity_finish</item>
+    </style>
+    <style name="common_menu_dialog_btn_style">
+        <item name="android:textSize">@dimen/textSizeS2</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginTop">@dimen/common_menu_dialog_layout_btn_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/common_menu_dialog_layout_btn_marginBottom</item>
+    </style>
+    <style name="common_menu_dialog_cancel_btn_style" parent="@style/common_menu_dialog_btn_style">
+        <item name="android:textSize">@dimen/textSizeS2</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:background">@drawable/common_btn_black_actionsheet</item>
+        <item name="android:layout_marginTop">@dimen/common_menu_dialog_layout_cancel_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/common_menu_dialog_layout_cancel_marginBottom</item>
+        <item name="android:text">@string/cancel</item>
+    </style>
+    <style name="common_menu_dialog_content_style">
+        <item name="android:paddingLeft">@dimen/common_menu_dialog_layout_paddingLR</item>
+        <item name="android:paddingRight">@dimen/common_menu_dialog_layout_paddingLR</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="common_menu_dialog_gray_btn_style" parent="@style/common_menu_dialog_btn_style">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:background">@drawable/common_btn_black_actionsheet</item>
+    </style>
+    <style name="common_menu_dialog_layout_style">
+        <item name="android:background">#88000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="common_menu_dialog_red_btn_style" parent="@style/common_menu_dialog_btn_style">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:background">@drawable/common_btn_red_actionsheet</item>
+    </style>
+    <style name="common_menu_dialog_title_style">
+        <item name="android:paddingLeft">@dimen/common_menu_dialog_tilte_paddingLR</item>
+        <item name="android:paddingRight">@dimen/common_menu_dialog_tilte_paddingLR</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/common_menu_dialog_tile_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/common_menu_dialog_tile_marginBottom</item>
+    </style>
+    <style name="common_menu_dialog_txt_style">
+        <item name="android:textSize">@dimen/textSizeS2</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/common_menu_dialog_layout_btn_marginTop</item>
+    </style>
+    <style name="common_menu_dialog_white_btn_style" parent="@style/common_menu_dialog_btn_style">
+        <item name="android:background">@drawable/common_btn_gray_actionsheet</item>
+    </style>
+    <style name="customAutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:background">@drawable/edit_text</item>
+    </style>
+    <style name="customCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_bg1</item>
+    </style>
+    <style name="customEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+    <style name="customExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:persistentDrawingCache">all</item>
+        <item name="android:alwaysDrawnWithCache">true</item>
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:scrollingCache">true</item>
+        <item name="android:cacheColorHint">@color/window_bg</item>
+        <item name="android:childDivider">@drawable/line</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="customListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">@null</item>
+    </style>
+    <style name="customRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/checkbox_bg1</item>
+    </style>
+    <style name="list_group_item">
+        <item name="android:background">@drawable/common_list_group_item_background</item>
+    </style>
+    <style name="list_item">
+        <item name="android:background">@drawable/common_list_item_background</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="login_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff777777</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="main_tab_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font17</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="pullUpAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_2_enter_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_2_enter_out</item>
+        <item name="android:taskOpenEnterAnimation">@anim/activity_2_enter_in</item>
+        <item name="android:taskOpenExitAnimation">@anim/activity_2_enter_out</item>
+    </style>
+    <style name="qZonePublishProgressStyle">
+        <item name="android:maxWidth">30.0dip</item>
+        <item name="android:maxHeight">30.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+    <style name="setting_item_bottom">
+        <item name="android:background">@drawable/common_strip_setting_bottom</item>
+    </style>
+    <style name="setting_item_middle">
+        <item name="android:background">@drawable/common_strip_setting_middle</item>
+    </style>
+    <style name="setting_item_single">
+        <item name="android:background">@drawable/common_strip_setting_bg</item>
+    </style>
+    <style name="setting_item_top">
+        <item name="android:background">@drawable/common_strip_setting_top</item>
+    </style>
+    <style name="switch_optimus" parent="android:Widget.CompoundButton">
+        <item name="thumb">@drawable/switch_inner</item>
+        <item name="track">@drawable/skin_switch_track</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12.0dip</item>
+        <item name="switchTextAppearance">@style/TextAppearanceSwitch</item>
+        <item name="switchMinWidth">75.0dip</item>
+        <item name="switchPadding">16.0dip</item>
+    </style>
+    <!-- From: file:/E:/AndroidStudio_Projects/Genware0.6/app/src/main/res/values/text_style.xml -->
+    <eat-comment/>
+    <style name="sys_msg_baseInfoContent_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray_item</item>
+    </style>
+    <style name="sys_msg_baseInfo_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <style name="sys_msg_message_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_dark_gray_item</item>
+    </style>
+    <style name="sys_msg_nickname_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/skin_dark_gray_item</item>
+    </style>
+    <style name="sys_msg_result_Font">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/skin_gray2_item</item>
+    </style>
+    <style name="sys_msg_source_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/skin_gray3_item</item>
+    </style>
+    <style name="sys_msg_time_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/skin_gray3</item>
+    </style>
+    <style name="sys_msg_type_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/skin_gray2</item>
+    </style>
+</resources>
